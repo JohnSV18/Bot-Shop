@@ -14,6 +14,7 @@
 		F26DDF822800F35400C450C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26DDF802800F35400C450C4 /* LaunchScreen.storyboard */; };
 		F297001228232D54007101B4 /* PastOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F297001128232D54007101B4 /* PastOrderViewController.swift */; };
 		F297001428232E81007101B4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F297001328232E81007101B4 /* TabBarController.swift */; };
+		F297001628234458007101B4 /* NewItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F297001528234458007101B4 /* NewItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F26DDF832800F35400C450C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F297001128232D54007101B4 /* PastOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderViewController.swift; sourceTree = "<group>"; };
 		F297001328232E81007101B4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		F297001528234458007101B4 /* NewItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				F26DDF7E2800F35400C450C4 /* Assets.xcassets */,
 				F26DDF802800F35400C450C4 /* LaunchScreen.storyboard */,
 				F26DDF832800F35400C450C4 /* Info.plist */,
+				F297001528234458007101B4 /* NewItemCell.swift */,
 			);
 			path = "Bot-Shop";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				F26DDF782800F35200C450C4 /* SceneDelegate.swift in Sources */,
 				F297001428232E81007101B4 /* TabBarController.swift in Sources */,
 				F297001228232D54007101B4 /* PastOrderViewController.swift in Sources */,
+				F297001628234458007101B4 /* NewItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
