@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F25E28D52829C919002652B7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25E28D42829C919002652B7 /* Item.swift */; };
+		F25E28D72829D804002652B7 /* PastOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25E28D62829D804002652B7 /* PastOrderCell.swift */; };
 		F26DDF762800F35200C450C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26DDF752800F35200C450C4 /* AppDelegate.swift */; };
 		F26DDF782800F35200C450C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26DDF772800F35200C450C4 /* SceneDelegate.swift */; };
 		F26DDF7A2800F35200C450C4 /* NewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26DDF792800F35200C450C4 /* NewOrderViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		F25E28D42829C919002652B7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F25E28D62829D804002652B7 /* PastOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderCell.swift; sourceTree = "<group>"; };
 		F26DDF722800F35200C450C4 /* Bot-Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bot-Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26DDF752800F35200C450C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F26DDF772800F35200C450C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				F26DDF7E2800F35400C450C4 /* Assets.xcassets */,
 				F26DDF802800F35400C450C4 /* LaunchScreen.storyboard */,
 				F26DDF832800F35400C450C4 /* Info.plist */,
+				F25E28D62829D804002652B7 /* PastOrderCell.swift */,
 			);
 			path = "Bot-Shop";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				F26DDF7A2800F35200C450C4 /* NewOrderViewController.swift in Sources */,
 				F26DDF762800F35200C450C4 /* AppDelegate.swift in Sources */,
+				F25E28D72829D804002652B7 /* PastOrderCell.swift in Sources */,
 				F26DDF782800F35200C450C4 /* SceneDelegate.swift in Sources */,
 				F297001428232E81007101B4 /* TabBarController.swift in Sources */,
 				F25E28D52829C919002652B7 /* Item.swift in Sources */,
