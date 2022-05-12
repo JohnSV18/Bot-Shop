@@ -9,14 +9,17 @@ import Foundation
 import UIKit
 
 class OrderList: UIViewController {
-    let orders = [
-        Order(title: "July 2020", image: UIImage(named: "box")!),
-        Order(title: "June 2020", image: UIImage(named: "box")!),
-        Order(title: "May 2020", image: UIImage(named: "box")!),
-        Order(title: "December 2019", image: UIImage(named: "box")!),
-        Order(title: "November 2019", image: UIImage(named: "box")!),
-        Order(title: "October 2019", image: UIImage(named: "box")!),
-        Order(title: "September 2019", image: UIImage(named: "box")!)]
+//    let orders = [
+//        Order(title: "July 2020", image: UIImage(named: "box")!),
+//        Order(title: "June 2020", image: UIImage(named: "box")!),
+//        Order(title: "May 2020", image: UIImage(named: "box")!),
+//        Order(title: "December 2019", image: UIImage(named: "box")!),
+//        Order(title: "November 2019", image: UIImage(named: "box")!),
+//        Order(title: "October 2019", image: UIImage(named: "box")!),
+//        Order(title: "September 2019", image: UIImage(named: "box")!)]
+    var currentOrder: Order!
+    var orders: [Order] = []
+    var orderItems: [Item] = []
     
     let tableView =  UITableView()
     
@@ -42,17 +45,26 @@ class OrderList: UIViewController {
 }
 
 extension OrderList: UITableViewDelegate, UITableViewDataSource {
+    
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
       let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! PastOrderCell
-          cell.accessoryType = .disclosureIndicator
-          cell.selectionStyle = .none
-          cell.setCellContents(item: orders[indexPath.row])
+      cell.setCellContents(item: currentOrder.items[indexPath.item])
+      cell.accessoryType = .disclosureIndicator
+      cell.selectionStyle = .none
+//      if let currentOrder = currentOrder{
+//        cell.setCellContents(item: currentOrder.items[indexPath.row])
+//      }
+//      cell.setBoxContents(box: orders[indexPath.row])
       return cell
     
   }
   
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-      return orders.count
+      
+      if let currentOrder = currentOrder{
+        return currentOrder.items.count
+        }
+        return 0
   }
   func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
     return 100.0
