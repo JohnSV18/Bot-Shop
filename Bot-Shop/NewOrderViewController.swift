@@ -35,7 +35,7 @@ class NewOrderViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         setViews()
-        view.backgroundColor = .red
+        view.backgroundColor = UIColor(red:0.49, green:0.84, blue:0.87, alpha:1.0)
         collectionView.dataSource = self
         collectionView.delegate = self
     }

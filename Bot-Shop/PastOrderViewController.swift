@@ -25,7 +25,7 @@ class PastOrderViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        view.backgroundColor = .green
+        view.backgroundColor = UIColor(red:0.49, green:0.84, blue:0.87, alpha:1.0)
         tableView.register(PastOrderCell.self, forCellReuseIdentifier: "cell")
         tableView.delegate = self
         tableView.dataSource = self

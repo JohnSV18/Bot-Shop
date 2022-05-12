@@ -26,7 +26,7 @@ class OrderList: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        view.backgroundColor = .green
+        view.backgroundColor = .white
         tableView.register(PastOrderCell.self, forCellReuseIdentifier: "cell")
         tableView.delegate = self
         tableView.dataSource = self
@@ -51,10 +51,6 @@ extension OrderList: UITableViewDelegate, UITableViewDataSource {
       cell.setCellContents(item: currentOrder.items[indexPath.item])
       cell.accessoryType = .disclosureIndicator
       cell.selectionStyle = .none
-//      if let currentOrder = currentOrder{
-//        cell.setCellContents(item: currentOrder.items[indexPath.row])
-//      }
-//      cell.setBoxContents(box: orders[indexPath.row])
       return cell
     
   }
