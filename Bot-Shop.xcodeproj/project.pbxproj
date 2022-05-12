@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F25E28D52829C919002652B7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25E28D42829C919002652B7 /* Item.swift */; };
 		F25E28D72829D804002652B7 /* PastOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25E28D62829D804002652B7 /* PastOrderCell.swift */; };
+		F2633696282C3EC0000F95E4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2633695282C3EC0000F95E4 /* Order.swift */; };
 		F26DDF762800F35200C450C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26DDF752800F35200C450C4 /* AppDelegate.swift */; };
 		F26DDF782800F35200C450C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26DDF772800F35200C450C4 /* SceneDelegate.swift */; };
 		F26DDF7A2800F35200C450C4 /* NewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26DDF792800F35200C450C4 /* NewOrderViewController.swift */; };
@@ -17,11 +18,13 @@
 		F297001228232D54007101B4 /* PastOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F297001128232D54007101B4 /* PastOrderViewController.swift */; };
 		F297001428232E81007101B4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F297001328232E81007101B4 /* TabBarController.swift */; };
 		F297001628234458007101B4 /* NewItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F297001528234458007101B4 /* NewItemCell.swift */; };
+		F2F4A503282D2C73000ABB14 /* OrderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F4A502282D2C73000ABB14 /* OrderList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F25E28D42829C919002652B7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		F25E28D62829D804002652B7 /* PastOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderCell.swift; sourceTree = "<group>"; };
+		F2633695282C3EC0000F95E4 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		F26DDF722800F35200C450C4 /* Bot-Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bot-Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26DDF752800F35200C450C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F26DDF772800F35200C450C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +35,7 @@
 		F297001128232D54007101B4 /* PastOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderViewController.swift; sourceTree = "<group>"; };
 		F297001328232E81007101B4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		F297001528234458007101B4 /* NewItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemCell.swift; sourceTree = "<group>"; };
+		F2F4A502282D2C73000ABB14 /* OrderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,12 +73,14 @@
 				F297001328232E81007101B4 /* TabBarController.swift */,
 				F297001128232D54007101B4 /* PastOrderViewController.swift */,
 				F26DDF792800F35200C450C4 /* NewOrderViewController.swift */,
+				F25E28D62829D804002652B7 /* PastOrderCell.swift */,
 				F25E28D42829C919002652B7 /* Item.swift */,
 				F297001528234458007101B4 /* NewItemCell.swift */,
 				F26DDF7E2800F35400C450C4 /* Assets.xcassets */,
 				F26DDF802800F35400C450C4 /* LaunchScreen.storyboard */,
 				F26DDF832800F35400C450C4 /* Info.plist */,
-				F25E28D62829D804002652B7 /* PastOrderCell.swift */,
+				F2633695282C3EC0000F95E4 /* Order.swift */,
+				F2F4A502282D2C73000ABB14 /* OrderList.swift */,
 			);
 			path = "Bot-Shop";
 			sourceTree = "<group>";
@@ -151,7 +157,9 @@
 			files = (
 				F26DDF7A2800F35200C450C4 /* NewOrderViewController.swift in Sources */,
 				F26DDF762800F35200C450C4 /* AppDelegate.swift in Sources */,
+				F2F4A503282D2C73000ABB14 /* OrderList.swift in Sources */,
 				F25E28D72829D804002652B7 /* PastOrderCell.swift in Sources */,
+				F2633696282C3EC0000F95E4 /* Order.swift in Sources */,
 				F26DDF782800F35200C450C4 /* SceneDelegate.swift in Sources */,
 				F297001428232E81007101B4 /* TabBarController.swift in Sources */,
 				F25E28D52829C919002652B7 /* Item.swift in Sources */,
